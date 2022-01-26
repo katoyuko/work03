@@ -70,8 +70,7 @@ h2 {
   min-width: 960px;
   margin: 0 auto;
 }
-
-.contents .item {
+s .contents .item {
   width: 30%;
 }
 
@@ -82,6 +81,10 @@ img {
 .text {
   background-color: #fff;
   padding: 20px;
+}
+
+.text p {
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 400px) {
