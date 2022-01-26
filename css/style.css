@@ -67,10 +67,11 @@ h2 {
 .contents {
   display: flex;
   justify-content: space-between;
-  min-width: 960px;
+  max-width: 960px;
   margin: 0 auto;
 }
-s .contents .item {
+
+.contents .item {
   width: 30%;
 }
 
