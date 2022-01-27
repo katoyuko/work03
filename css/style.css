@@ -42,8 +42,13 @@ img {
 }
 
 /* レイアウト */
+body {
+  background: #eee;
+  text-align: center;
+}
+
 .wrap {
-  background-color: #eeeeee;
+  max-width: 960px;
   padding: 50px;
   display: inline-block;
 }
@@ -67,8 +72,8 @@ h2 {
 .contents {
   display: flex;
   justify-content: space-between;
-  max-width: 960px;
   margin: 0 auto;
+  text-align: left;
 }
 
 .contents .item {
